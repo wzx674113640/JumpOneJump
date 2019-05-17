@@ -1,0 +1,147 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SkinPrefab",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_prefab": {
+      "__id__": 3
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_zIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "a131eFfPjRHA5je3KrsRjgS",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "SkinPicList": [
+      {
+        "__uuid__": "fb37034d-c413-48df-ab99-b4691bc1c087"
+      },
+      {
+        "__uuid__": "e2a561b7-1137-4496-9fad-f14fe37176a9"
+      },
+      {
+        "__uuid__": "f5468576-92ee-4920-8c4f-8c8c63d8c27d"
+      },
+      {
+        "__uuid__": "89026e69-9684-41e5-a527-a5911359554c"
+      },
+      {
+        "__uuid__": "47cae4f5-a456-4fe2-a984-aaf4392513f7"
+      },
+      {
+        "__uuid__": "34e445a8-e824-483f-8fe4-7d6424509ee6"
+      },
+      {
+        "__uuid__": "d02a2a43-dfc7-4247-8e7b-102ef97ee5d7"
+      }
+    ],
+    "SkinStringList": [
+      "小姑凉",
+      "黑衣侠",
+      "小僵尸",
+      "粉红猪",
+      "小丑",
+      "大丑",
+      "闪电兽"
+    ],
+    "BoxSkinList": [
+      {
+        "__uuid__": "e37b146c-b421-4810-800d-f3c45130c0ee"
+      },
+      {
+        "__uuid__": "728d6a18-1c57-4a4a-9c14-ec54d49497ce"
+      },
+      {
+        "__uuid__": "518680ad-4062-435b-a572-ddc46d4b39a2"
+      },
+      {
+        "__uuid__": "54d9fdee-a0e5-45c7-a743-4e5bd40554d0"
+      }
+    ],
+    "BoxStringList": [
+      "红色",
+      "绿色",
+      "橙色",
+      "紫色"
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "684b5012-8c9a-44eb-bc4c-96d8b200239a"
+    },
+    "fileId": "40XoIUmRJGU4xfqoT68EhF",
+    "sync": false
+  }
+]

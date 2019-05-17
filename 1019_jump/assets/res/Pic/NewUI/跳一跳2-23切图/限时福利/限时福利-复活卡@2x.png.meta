@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "f9709383-4a97-4b02-a2d2-9beb698db25a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "限时福利-复活卡@2x": {
+      "ver": "1.0.3",
+      "uuid": "74112f88-99f5-4aaf-84a0-6d23c017a069",
+      "rawTextureUuid": "f9709383-4a97-4b02-a2d2-9beb698db25a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 68,
+      "height": 79,
+      "rawWidth": 68,
+      "rawHeight": 79,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

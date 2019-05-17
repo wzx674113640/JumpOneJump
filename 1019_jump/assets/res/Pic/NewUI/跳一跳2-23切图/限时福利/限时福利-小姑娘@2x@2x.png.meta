@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "dda521b8-2544-4448-a462-a7fd0304a195",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "限时福利-小姑娘@2x@2x": {
+      "ver": "1.0.3",
+      "uuid": "85a2f860-6a9d-4e2e-8812-9f68d6351ffc",
+      "rawTextureUuid": "dda521b8-2544-4448-a462-a7fd0304a195",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 66,
+      "height": 88,
+      "rawWidth": 66,
+      "rawHeight": 88,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

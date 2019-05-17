@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "eb1b9836-1b72-4de9-821d-f71ad3c65be8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "BigCoin": {
+      "ver": "1.0.3",
+      "uuid": "99c2969c-7431-4028-a4c5-706531ff6261",
+      "rawTextureUuid": "eb1b9836-1b72-4de9-821d-f71ad3c65be8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 49,
+      "height": 50,
+      "rawWidth": 49,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

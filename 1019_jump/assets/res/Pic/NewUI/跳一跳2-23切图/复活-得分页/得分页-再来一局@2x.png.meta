@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "f4812e7f-9c1d-4df2-be83-d437d62a2ad8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "得分页-再来一局@2x": {
+      "ver": "1.0.3",
+      "uuid": "77d80d7a-157f-4e9a-9745-d509415e1993",
+      "rawTextureUuid": "f4812e7f-9c1d-4df2-be83-d437d62a2ad8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 360,
+      "height": 90,
+      "rawWidth": 360,
+      "rawHeight": 90,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

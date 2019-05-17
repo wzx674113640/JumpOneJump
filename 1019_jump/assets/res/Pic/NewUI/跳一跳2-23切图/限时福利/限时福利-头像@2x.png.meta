@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "c0481cc8-3638-45e3-8938-bfed72030775",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "限时福利-头像@2x": {
+      "ver": "1.0.3",
+      "uuid": "1c4a73f6-feb7-4d7f-9570-35162fcd9da0",
+      "rawTextureUuid": "c0481cc8-3638-45e3-8938-bfed72030775",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 72,
+      "height": 72,
+      "rawWidth": 72,
+      "rawHeight": 72,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

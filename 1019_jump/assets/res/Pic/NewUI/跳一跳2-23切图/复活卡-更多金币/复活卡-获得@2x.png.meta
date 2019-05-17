@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "0e2a1a13-fa0c-4f9b-a2f2-88a40464462d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "复活卡-获得@2x": {
+      "ver": "1.0.3",
+      "uuid": "f7c94645-19b2-4a2e-a728-8536d5fad0c4",
+      "rawTextureUuid": "0e2a1a13-fa0c-4f9b-a2f2-88a40464462d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 320,
+      "height": 90,
+      "rawWidth": 320,
+      "rawHeight": 90,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

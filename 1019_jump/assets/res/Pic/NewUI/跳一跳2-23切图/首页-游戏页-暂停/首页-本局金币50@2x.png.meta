@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "989b1f83-2be8-4aa8-8114-147b550695b7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "首页-本局金币50@2x": {
+      "ver": "1.0.3",
+      "uuid": "61ee12b8-bab3-484e-a733-f4b345f28695",
+      "rawTextureUuid": "989b1f83-2be8-4aa8-8114-147b550695b7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 160,
+      "height": 47,
+      "rawWidth": 160,
+      "rawHeight": 47,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

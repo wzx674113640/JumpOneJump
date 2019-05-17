@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "ef8bb577-6272-49b5-8528-b4f0f2ef3100",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "更多金币-双倍弹窗@2x": {
+      "ver": "1.0.3",
+      "uuid": "05a79776-da5f-4d53-a494-8d69d20cdc1e",
+      "rawTextureUuid": "ef8bb577-6272-49b5-8528-b4f0f2ef3100",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 268,
+      "height": 268,
+      "rawWidth": 268,
+      "rawHeight": 268,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

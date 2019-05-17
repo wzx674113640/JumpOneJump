@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "f3847a14-f986-4c79-a0bc-c2bb618605d1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "首页抽屉-箭头@2x": {
+      "ver": "1.0.3",
+      "uuid": "3865152c-e312-4b0e-a330-84a1390246dd",
+      "rawTextureUuid": "f3847a14-f986-4c79-a0bc-c2bb618605d1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 60,
+      "height": 60,
+      "rawWidth": 60,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

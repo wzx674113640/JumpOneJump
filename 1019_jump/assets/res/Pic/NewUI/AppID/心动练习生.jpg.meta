@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "f377b861-aee7-4763-a9ea-72b3c3c5b238",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "心动练习生": {
+      "ver": "1.0.3",
+      "uuid": "5bb7923b-80b6-43fc-bd8f-0cb8181570df",
+      "rawTextureUuid": "f377b861-aee7-4763-a9ea-72b3c3c5b238",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 150,
+      "height": 150,
+      "rawWidth": 150,
+      "rawHeight": 150,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

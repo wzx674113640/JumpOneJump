@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "14440f59-3fca-4cfd-8a69-6e7fa19103e3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "限时福利-蝙蝠侠@2x@2x": {
+      "ver": "1.0.3",
+      "uuid": "b2a17528-cfff-41ea-8747-306d025739b7",
+      "rawTextureUuid": "14440f59-3fca-4cfd-8a69-6e7fa19103e3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 154,
+      "height": 226,
+      "rawWidth": 154,
+      "rawHeight": 226,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

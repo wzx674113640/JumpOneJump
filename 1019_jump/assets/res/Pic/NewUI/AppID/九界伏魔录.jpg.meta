@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "f9879143-c850-4ce3-80af-5b161e405d9e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "九界伏魔录": {
+      "ver": "1.0.3",
+      "uuid": "81a44472-c21e-4b75-9416-670533a1365a",
+      "rawTextureUuid": "f9879143-c850-4ce3-80af-5b161e405d9e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 216,
+      "height": 216,
+      "rawWidth": 216,
+      "rawHeight": 216,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

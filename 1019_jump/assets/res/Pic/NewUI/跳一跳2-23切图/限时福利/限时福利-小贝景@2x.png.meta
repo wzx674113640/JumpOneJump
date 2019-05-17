@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "d8fb1a80-ecd6-4fa4-8265-fc65fcf70ce9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "限时福利-小贝景@2x": {
+      "ver": "1.0.3",
+      "uuid": "dd23c39b-98cd-4c44-9fab-269859cbcaca",
+      "rawTextureUuid": "d8fb1a80-ecd6-4fa4-8265-fc65fcf70ce9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 180,
+      "height": 200,
+      "rawWidth": 180,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
