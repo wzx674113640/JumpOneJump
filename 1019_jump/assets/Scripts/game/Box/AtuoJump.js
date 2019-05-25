@@ -38,5 +38,5 @@ var AtuoJump =  cc.Class({
                 self.node.destroy();
             }
         },0.3,10,0.3);
-    }
+    },
 });

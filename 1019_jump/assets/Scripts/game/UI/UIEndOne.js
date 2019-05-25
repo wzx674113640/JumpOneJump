@@ -126,8 +126,7 @@ cc.Class({
         this.node.parent.parent.Rank.HideChild();
         WXRequ.Instance.ShowOrHideAdervert(false);
     },
-
-
+    
     update(dt)
     {
         if(this.isStop)

@@ -151,7 +151,7 @@ cc.Class({
         {
             if(value == "1")
             {
-                if(this.IsPassDay())
+                if(this.PassDay)
                 {
                     this.UIOnceSkin.active = true;
                     cc.sys.localStorage.setItem("SkinToggle","0")
@@ -181,6 +181,11 @@ cc.Class({
             {
                 //需要适配
                 this.BtnsControl.setPosition(0,-640);
+                this.TeachUICom = this.TeachUI.getComponent("TeachUI");
+                for(var i = 0;i < this.TeachUICom .MaskList.length;i++)
+                {
+                    this.TeachUICom.MaskList[i].y = -640;
+                }
             }
             this.BestScore.node.setPosition(0,wxy);
             this.IsAdpative = true;
@@ -220,16 +225,15 @@ cc.Class({
 
 
     onLoad () {
-        this.IsPassDay();
         this.CurrentTimer = this.coolTime + 1;
         this.TotalTimer = this.CurrentTimer;
+        this.PassDay = this.IsPassDay();
+
+        window.GameControl = this;
 
         this.direction = 1;
         this.index = 0;
-        if(cc.sys.localStorage.getItem("Teach") == "1")
-        {
-            this.TeachUI.active = false;
-        }
+        
         this.Index =  Math.floor(Math.random()*5);
         if(!CC_WECHATGAME)
             return;
@@ -308,6 +312,11 @@ cc.Class({
         this.randomColor();
         this.BestScore.string = "历史最高"+  WXRequ.Instance.bestscore + "分";
         this.clearAndGameStart();
+        if(cc.sys.localStorage.getItem("Teach") == null || cc.sys.localStorage.getItem("Teach") == "")
+        {
+            this.TeachUI.active = true;
+            this.player.instance.GameingState = "Teaching";
+        }
     },
 
     RandomBox()
@@ -460,6 +469,12 @@ cc.Class({
             
                 //播放声音
             }
+
+            if(Player.GameingState == "Teaching")
+            {
+                TeachUI.TeachJump();
+            }
+
         }.bind(this));
         
         var seq = cc.sequence(m1, end_func);

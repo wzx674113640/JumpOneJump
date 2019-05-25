@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "5aefa8f7-fb75-4f2d-bb4f-10c669fcdb85",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "好友在玩-挑战@2x": {
+      "ver": "1.0.3",
+      "uuid": "c2f23f4c-1568-4f5a-9a2e-9f587b935a9a",
+      "rawTextureUuid": "5aefa8f7-fb75-4f2d-bb4f-10c669fcdb85",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 103,
+      "height": 118,
+      "rawWidth": 103,
+      "rawHeight": 118,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

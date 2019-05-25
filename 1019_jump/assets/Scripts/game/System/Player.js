@@ -96,9 +96,12 @@ cc.Class({
 
     keyDown(event)
     {
-        
-        if(this.IsCanJump == false||this.GameingState != "Gameing")
+        if(this.IsCanJump == false||this.GameingState == "GameOver")
             return;
+        if(this.GameingState == "GameingReady")
+        {
+            this.GameingState = "Gameing";
+        }
         this.game_manager.IsPause = false;
         //if(Init.Instance.IsSoundPlay)
             //this.game_manager.AllBoxs[this.AllBoxIndex+1].getComponent(cc.AudioSource).play();

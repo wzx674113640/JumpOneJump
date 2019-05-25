@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "2370323c-276b-4696-be8f-47332895a3a0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "好友在玩-bg拷贝2@2x": {
+      "ver": "1.0.3",
+      "uuid": "aceb6288-31ae-4de7-bd81-8f3952880de8",
+      "rawTextureUuid": "2370323c-276b-4696-be8f-47332895a3a0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 690,
+      "height": 600,
+      "rawWidth": 690,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

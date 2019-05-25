@@ -94,8 +94,13 @@ cc.Class({
             this.isDes = ISDestory;
         }
         */
-        this.IsStartOpacity = true;
-        this.isDes = ISDestory;
+       if(Player.GameingState == "GameingReady")
+            return;
+       if(Player.GameingState != "Teaching")
+       {
+            this.IsStartOpacity = true;
+            this.isDes = ISDestory;
+       }    
     },
 
 

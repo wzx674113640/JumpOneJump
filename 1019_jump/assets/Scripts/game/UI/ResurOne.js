@@ -7,12 +7,13 @@ cc.Class({
 
     properties: {
         TxtCount: cc.Label,
-        BtnNode: cc.Node
+        BtnNode: cc.Node,
+        endOne:cc.Component
     },
 
     start()
     {
-        this.endOne = this.node.parent.getComponent("UIEndOne");
+        //this.endOne = this.node.parent.getComponent("UIEndOne");
     },
 
     onEnable()
@@ -70,6 +71,5 @@ cc.Class({
     {
         this.endOne.MianUI.active = true;
         this.endOne.ResurPanel.active = false;
-        this.endOne.isStop = false;
     }
 });

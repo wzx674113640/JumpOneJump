@@ -7,8 +7,9 @@ cc.Class({
 
     properties: {
         LeftAppNodeList:cc.Node,
-        MoreGame:cc.Node,
-        Down:cc.Node
+        Down:cc.Node,
+        MianUI:cc.Node,
+        ResurPanel:cc.Node
     },
     
     
@@ -20,7 +21,6 @@ cc.Class({
         {
             WXRequ.Instance.bannerAd.hide();
         }
-        this.GetGold();
         var AppIDInfoList = WXRequ.Instance._AppIDInfoList;
         var Applength = AppIDInfoList.length;
         AppIDInfoList.sort(function() {
@@ -37,15 +37,7 @@ cc.Class({
                 this.LeftAppNodeList.children[i].active = false;
             }
         }
-        if(Applength<=0)
-            return;
-        var index = Math.floor(Math.random()*Applength);
-        this.MoreGame.targetOff(this);
-        this.MoreGame.on(cc.Node.EventType.TOUCH_END, function(event)
-        {
-            WXRequ.Instance.CG2_AppReqCount(AppIDInfoList[index].id);
-            WXRequ.Instance.associatedProgram(AppIDInfoList[index].appid,AppIDInfoList[index].url,AppIDInfoList[index].id);
-        },this);
+        
 
         this.Down.y = WXRequ.Instance.startClosePos;
         WXRequ.Instance.ShowOrHideAdervert(true,()=>
@@ -68,46 +60,49 @@ cc.Class({
         this.StartPosY = this.Down.y;
     },
     
-    GetGold()
+    
+
+    Res_Game()
     {
-        try {
-            if(CC_WECHATGAME)
-            {
-                var coinAdd =  WXRequ.Instance.playInfo.CoinAdd;
-                var coin1 = this.game.curCoin * coinAdd;
-                var coin = Math.ceil(coin1);
-                WXRequ.Instance.C2G_GameOver(coin,this.game.curScore,
-                 ()=>
-                 {
-                     WXRequ.Instance.playInfo.coin += coin;
-                     WXRequ.Instance.playInfo.CoinAdd = 1;
-                 }
-                 );
-            }
-            this.game.curCoin = 0;
-        } 
-        catch (error) 
-        {
-            console.error(error);
-        }
+        this.UIgameing.getComponent("GameContorl").game_Resur();
+        Init.Instance.closeAllTop();
+        this.UIgameing.getComponent("GameContorl").ScoreHideOrShow(true);
     },
 
-    GameNext()
+    AskFriendClick()
+    {
+        this.MianUI.active = false;
+        this.ResurPanel.active = true;
+        Init.Instance.SoundNode[0].play();
+    },
+
+    SeeVedioClick()
     {
         Init.Instance.SoundNode[0].play();
-        //跳转到游戏重新开始
-        this.UIgameing.getComponent("GameContorl").game_Next();
-        Init.Instance.closeAllTop();
+        WXRequ.Instance.SeeVideo(()=>
+        {
+            wx.showToast({
+                title: '已复活',
+                icon: 'success',
+                duration: 800
+                })
+            this.Res_Game();
+        });
+       
     },
 
-    BtnOnePage()
+    SkipUIClick()
     {
-        window.BtnOnePage.ReturnMianMenuClick();
+        Init.Instance.SoundNode[0].play();
+        //跳转到第二个UI界面
+        Init.Instance.ShowUIEndTwo();
+        //关闭开放域画布
+        if(CC_WECHATGAME)
+        {
+            window.wx.postMessage({
+                messageType: 4,
+                MAIN_MENU_NUM: "x1"
+            });
+        }
     },
-    
-    BtnShare()
-    {
-        WXRequ.Instance.onShareBtn();
-    },
-
 });
