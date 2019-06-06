@@ -136,7 +136,14 @@ var UIAward =  cc.Class({
   
     SharaBtn()
     {
-        WXRequ.Instance.onSharaResurtBtn();
+        WXRequ.Instance.onSharaResurtBtn(()=>
+        {
+            wx.showToast({
+                title: '好友点击分享卡片进来才会生效',
+                icon: 'success',
+                duration: 800
+              })
+        });
     },
 
     createImage(avatarUrl,ImgHead)

@@ -535,10 +535,10 @@ cc.Class({
             this.node.parent.parent.Rank.submitScoreButtonFunc(this.curScore);
         }
         
-        //if(CC_WECHATGAME)
-        //{
-            //WXRequ.Instance.C2G_GameOver(this.curScore);
-        //}
+        if(CC_WECHATGAME)
+        {
+            WXRequ.Instance.C2G_GameOver1(this.curScore);
+        }
     },
 
     game_Next()

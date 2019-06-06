@@ -44,8 +44,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.4214064842578711,
-      "y": 0.4214064842578711,
+      "x": 0.28568918665667165,
+      "y": 0.28568918665667165,
       "z": 1
     },
     "_quat": {
@@ -2695,7 +2695,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 135.33,
+      "width": 144,
       "height": 40
     },
     "_anchorPoint": {
@@ -2741,8 +2741,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "222游戏",
-    "_N$string": "222游戏",
+    "_string": "游戏大全",
+    "_N$string": "游戏大全",
     "_fontSize": 36,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -2778,7 +2778,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "e37f4d16-b416-435a-b7c6-1930d982aa3f"
+      "__uuid__": "d954a46d-0962-4264-9cd0-105d4a05c989"
     },
     "_type": 0,
     "_sizeMode": 1,

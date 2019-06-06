@@ -206,20 +206,9 @@ var WXRequ = cc.Class({
                 self.playInfo.is_status = infodata.is_status;
                 self.playInfo.curSkin =  infodata.skin_id;
                 self.Init.GetUINode("UIOnePage").getComponent("UIOnePage").IsShowShareUI();
-                self.C2G_AppID();
-                self.C2G_hzlist();
-                if(isclose)
-                {
-                    self.C2G_Sgin(
-                        (data)=>
-                        {
-                            self._isSign = data.is_sign==1? true:false;
-                            if(!self._isSign)
-                                self.Init.ShowUISgin();
-                            self.HidePanelMask();
-                        }
-                    );
-                }
+                //self.C2G_AppID();
+                //self.C2G_hzlist();
+               
                 if(action!=null)
                     action();
             },
@@ -232,7 +221,7 @@ var WXRequ = cc.Class({
     },
 
     //签到
-    C2G_Sgin(action)
+    C2G_Sgin()
     {
         if (!CC_WECHATGAME)
             return;
@@ -248,7 +237,13 @@ var WXRequ = cc.Class({
             success (res) 
             {
                 //self.mydata = res.data.data;
-                action(res.data.data);
+                self.signData = res.data.data
+                //action(res.data.data);
+
+                self._isSign = self.signData.is_sign==1? true:false;
+                if(!self._isSign)
+                    self.Init.ShowUISgin();
+                self.HidePanelMask();
             },
             fail(res)
             {
@@ -525,6 +520,9 @@ var WXRequ = cc.Class({
                     self.IsGetUserInfo = true;
                     self.is_open = severuserinfo.is_open;
                     self.C2G_GameInfo(true);
+                    self.C2G_Sgin();
+                    self.C2G_AppID();
+                    self.C2G_hzlist();
                     },
                     fail(res)
                     {
@@ -545,7 +543,7 @@ var WXRequ = cc.Class({
     C2G_GameStart(action)
     {
         if (!CC_WECHATGAME)
-        return;
+            return;
         var self =this;
         wx.request({
             url: 'https://tfk.qkxz.com/?act=index&openid={$openid}',
@@ -583,6 +581,28 @@ var WXRequ = cc.Class({
             }
           })
     },
+
+
+    C2G_GameOver1(Score)
+    {
+        if (!CC_WECHATGAME)
+        return;
+        var self = this;
+        wx.request({
+            url: 'https://tfk.qkxz.com/?act=end&openid={$openid}',
+            data:
+            {
+                openid:self.playInfo.openid,
+                score: Score,
+                id : self.gameID,
+                gold: 0,
+                version: self._version,
+            },
+            success (res) {
+            }
+          })
+    },
+
 //C2G世界排行榜
     C2G_WorldRank()
     {
@@ -648,7 +668,7 @@ var WXRequ = cc.Class({
       
     },
     //分享得复活卡
-    onSharaResurtBtn()
+    onSharaResurtBtn(action = null)
     {
         var self = this;
         var random = Math.floor(Math.random()*shareImgList.length);
@@ -658,7 +678,11 @@ var WXRequ = cc.Class({
             imageUrl: shareImgList[random],
             query: 'key=' + self.playInfo.id,
         })
-        
+
+        if(action)
+        {
+            action(); 
+        }
     },
 
     WXTopUI(TXT,State)

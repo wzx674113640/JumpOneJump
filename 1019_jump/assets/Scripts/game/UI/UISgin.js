@@ -31,6 +31,16 @@ cc.Class({
     start()
     {
         this._super();
+        if(WXRequ.Instance.signData)
+        {
+            this.action(WXRequ.Instance.signData);
+        }
+    },
+
+    /*
+    start()
+    {
+        this._super();
         
         try 
         {
@@ -47,6 +57,7 @@ cc.Class({
         }
 
     },
+    */
 
     action(data)
     {
